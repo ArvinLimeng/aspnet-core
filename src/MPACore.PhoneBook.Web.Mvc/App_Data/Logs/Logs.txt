@@ -469,3 +469,742 @@ WARN  2020-03-03 21:37:47,980 [31   ] calization.RequestLocalizationMiddleware -
 INFO  2020-03-03 21:37:48,256 [6    ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
 DEBUG 2020-03-03 21:37:48,298 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"bBiSCbx6AKi2d3NQKkTIpA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-03-03T21:37:48.2897332+08:00","Properties":{}}
 DEBUG 2020-03-03 21:37:48,356 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: bBiSCbx6AKi2d3NQKkTIpA
+DEBUG 2020-03-04 20:44:42,396 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-03-04 20:44:42,473 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-03-04 20:44:42,500 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.Web.Startup.PhoneBookWebMvcModule, MPACore.PhoneBook.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:44:42,505 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookWebCoreModule, MPACore.PhoneBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:44:42,506 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookApplicationModule, MPACore.PhoneBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:44:42,506 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookCoreModule, MPACore.PhoneBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:44:42,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:44:42,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:44:42,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:44:42,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:44:42,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.EntityFrameworkCore.PhoneBookEntityFrameworkModule, MPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:44:42,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:44:42,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:44:42,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:44:42,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:44:42,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:44:42,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:44:42,515 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-03-04 20:44:42,833 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-04 20:44:42,833 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-04 20:44:42,833 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-04 20:44:42,834 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-04 20:44:43,611 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MPACore.PhoneBook.EntityFrameworkCore.PhoneBookDbContext, MPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:44:44,756 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-03-04 20:44:44,877 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-03-04 20:44:44,950 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-03-04 20:44:44,989 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneBook
+DEBUG 2020-03-04 20:44:45,040 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-03-04 20:44:45,248 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-03-04 20:44:45,386 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2020-03-04 20:44:45,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-03-04 20:44:45,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-03-04 20:44:45,462 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Users.Dto.CreateUserDto
+DEBUG 2020-03-04 20:44:45,463 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Users.Dto.UserDto
+DEBUG 2020-03-04 20:44:45,464 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-03-04 20:44:45,464 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-03-04 20:44:45,464 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.PermissionDto
+DEBUG 2020-03-04 20:44:45,464 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-03-04 20:44:45,464 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.MultiTenancy.Dto.TenantDto
+DEBUG 2020-03-04 20:44:45,464 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-03-04 20:44:45,465 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-03-04 20:44:50,791 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-03-04 20:44:50,791 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2020-03-04 20:44:50,906 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 118.3712ms 200 
+WARN  2020-03-04 20:44:50,909 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:44:50,910 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:44:55,046 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action MPACore.PhoneBook.Web.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Mvc)
+WARN  2020-03-04 20:44:55,458 [9    ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2020-03-04 20:44:55,468 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2020-03-04 20:44:55,482 [9    ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2020-03-04 20:44:55,511 [9    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2020-03-04 20:44:55,516 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Mvc) in 463.0756ms
+INFO  2020-03-04 20:44:55,535 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2020-03-04 20:44:55,540 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4760.1622ms 302 
+WARN  2020-03-04 20:44:55,542 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:44:55,544 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:44:55,587 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action MPACore.PhoneBook.Web.Controllers.AccountController.Login (MPACore.PhoneBook.Web.Mvc)
+INFO  2020-03-04 20:44:58,955 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.AccountController.Login (MPACore.PhoneBook.Web.Mvc) with arguments (, /, ) - Validation state: Valid
+INFO  2020-03-04 20:44:58,967 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MPACore.PhoneBook.Web.Controllers.AccountController.Login (MPACore.PhoneBook.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 8.3851ms.
+INFO  2020-03-04 20:44:59,303 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-03-04 20:45:00,023 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 777.8732ms.
+INFO  2020-03-04 20:45:00,032 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.AccountController.Login (MPACore.PhoneBook.Web.Mvc) in 4443.0957ms
+INFO  2020-03-04 20:45:00,051 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.css?v=2SsVsQpWRHM3EJ4D4MT4RRpiEXbEuK0vEjPxVr5P7Ek  
+INFO  2020-03-04 20:45:00,053 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/roboto.css?v=DWPiEyLnt8XZ68WQeudmZPGSejowhmQNUUhaX8dYF1Q  
+WARN  2020-03-04 20:45:00,058 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,059 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,062 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,064 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,066 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.css?v=W8a9WvLyUO7CXtOC4f9LoUMwkywM7JSq-Xm5kNsYW08  
+WARN  2020-03-04 20:45:00,068 [13   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,073 [13   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,076 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/css/bootstrap.css?v=fmMNkMcjSw3xcp9iuPnku_ryk9kaWgrEbfJfKmdZ45o  
+WARN  2020-03-04 20:45:00,079 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,082 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,084 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css?v=l7wu43l7XpKWzFn29hiH8AFe4I_CNzbCPmaAQivPYMg  
+WARN  2020-03-04 20:45:00,086 [14   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,088 [14   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,093 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4558.5872ms 200 text/html; charset=utf-8
+INFO  2020-03-04 20:45:00,095 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/css/font-awesome.css?v=NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w  
+WARN  2020-03-04 20:45:00,097 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,099 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,131 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/css/font-awesome.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\font-awesome\css\font-awesome.css'
+INFO  2020-03-04 20:45:00,134 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\fonts\material-icons\materialicons.css'
+INFO  2020-03-04 20:45:00,138 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/roboto.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\fonts\roboto\roboto.css'
+INFO  2020-03-04 20:45:00,142 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 90.6403ms 200 text/css
+INFO  2020-03-04 20:45:00,147 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 91.3068ms 200 text/css
+INFO  2020-03-04 20:45:00,149 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.css?v=0zP86LzXedNkkBjePtKrMTAPuIy6EzHfGlyYvsmGLBw  
+INFO  2020-03-04 20:45:00,151 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=151KUrNx-cFGpjXC7QZ8WbWSo-mQTLO0htvGyBUR_i8  
+INFO  2020-03-04 20:45:00,152 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.2546ms 200 text/css
+WARN  2020-03-04 20:45:00,154 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,156 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,157 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,159 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,160 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/_Layout.css?v=vIEtxnpR3ZrYbYcueRr_mJ9XuJJzDprh4sMCwvRBcqk  
+INFO  2020-03-04 20:45:00,162 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.css'
+WARN  2020-03-04 20:45:00,164 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,167 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 81.4217ms 200 text/css
+WARN  2020-03-04 20:45:00,169 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,171 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\Waves\dist\waves.css'
+INFO  2020-03-04 20:45:00,173 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/materialize.css?v=OdWlipUYj8b9Oa4RyT45njteIcxH-4pGocqe0r0V8js  
+INFO  2020-03-04 20:45:00,175 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.2214ms 200 text/css
+INFO  2020-03-04 20:45:00,177 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\toastr\toastr.css'
+WARN  2020-03-04 20:45:00,181 [13   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,183 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 115.5234ms 200 text/css
+WARN  2020-03-04 20:45:00,186 [13   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,189 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.css?v=j_16MTiQNlUrKdjTrCjLCSGkIIjHvt8tFUyucW02Vqw  
+INFO  2020-03-04 20:45:00,190 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/_Layout.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\view-resources\Views\Account\_Layout.css'
+INFO  2020-03-04 20:45:00,192 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/animate.css/animate.css?v=00w68NO3TLuHjKRHJmjrrgJBDtG_6OhbJEu1gtHcsuo  
+WARN  2020-03-04 20:45:00,195 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,197 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+INFO  2020-03-04 20:45:00,199 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.8755ms 200 text/css
+WARN  2020-03-04 20:45:00,201 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,203 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 130.3102ms 200 text/css
+INFO  2020-03-04 20:45:00,205 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/json2/json2.js?v=EZJ68U7eUi8uSP0MRRUalYten2eOlhREE9kJOIbIeYg  
+INFO  2020-03-04 20:45:00,206 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/materialize.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\css\materialize.css'
+INFO  2020-03-04 20:45:00,208 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery/dist/jquery.js?v=DZAnKJ_6XZ9si04Hgrsxu_8s717jcIzLy3oi35EouyE  
+INFO  2020-03-04 20:45:00,210 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.6702ms 200 text/css
+WARN  2020-03-04 20:45:00,211 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,214 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/js/bootstrap.js?v=Cr6N6zNN4bp0OwTQOZ6Z66M2r-2dpy_EwKMCyZ-SOMg  
+WARN  2020-03-04 20:45:00,217 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,218 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,219 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,221 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,223 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,225 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/style.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\css\style.css'
+INFO  2020-03-04 20:45:00,227 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\view-resources\Views\Account\Login.css'
+INFO  2020-03-04 20:45:00,229 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 77.8668ms 200 text/css
+INFO  2020-03-04 20:45:00,231 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 45.4473ms 200 text/css
+INFO  2020-03-04 20:45:00,234 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/dist/jquery.validate.js?v=KuzD50lDGNI5jq_ipt4hwDpSJk3fhseTR1jdvaBoZLs  
+INFO  2020-03-04 20:45:00,238 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+WARN  2020-03-04 20:45:00,242 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,244 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 28.3815ms 200 application/javascript
+WARN  2020-03-04 20:45:00,246 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,249 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/json2/json2.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\json2\json2.js'
+INFO  2020-03-04 20:45:00,252 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.js?v=C7DJ6LzTt1Hvj9fd-yRnySs3I4T2B8XmQ3TqXQjc00g  
+INFO  2020-03-04 20:45:00,255 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50.1246ms 200 application/javascript
+WARN  2020-03-04 20:45:00,259 [10   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,261 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/blockUI/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2020-03-04 20:45:00,264 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\jquery\dist\jquery.js'
+WARN  2020-03-04 20:45:00,267 [10   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,268 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 61.3979ms 200 application/javascript
+INFO  2020-03-04 20:45:00,270 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+INFO  2020-03-04 20:45:00,272 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert.min.js?v=aPktydUv1rN3mouQeXoKi3ioFTIQlULuqYeoTAA2ihY  
+INFO  2020-03-04 20:45:00,274 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.5771ms 200 application/javascript
+WARN  2020-03-04 20:45:00,275 [13   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,277 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,279 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+WARN  2020-03-04 20:45:00,281 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,283 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\toastr\toastr.js'
+WARN  2020-03-04 20:45:00,284 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,286 [13   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,287 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.8966ms 200 application/javascript
+WARN  2020-03-04 20:45:00,289 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,291 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/moment/min/moment-with-locales.js?v=7CN4bWPV0U57HDA4YjdCBKCAynhqdWErjNn-5rrsW_I  
+INFO  2020-03-04 20:45:00,292 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/jquery.spin.js?v=EG38bUU5b2M64hy9cNAzu_cQBEsiBYsDifOcoHqNd2k  
+WARN  2020-03-04 20:45:00,295 [14   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,298 [18   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,301 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,302 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/blockUI/jquery.blockUI.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\blockUI\jquery.blockUI.js'
+WARN  2020-03-04 20:45:00,305 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,307 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/sweetalert/dist/sweetalert.min.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\sweetalert\dist\sweetalert.min.js'
+INFO  2020-03-04 20:45:00,308 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 47.1736ms 200 application/javascript
+INFO  2020-03-04 20:45:00,310 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.9493ms 200 application/javascript
+INFO  2020-03-04 20:45:00,311 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.js?v=Lar7zQhqgdoUsaqhuwkgnWgsC-eRWIxHhJPV-QtrDog  
+INFO  2020-03-04 20:45:00,313 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/abp.js?v=FGfi3RfHf06ftjVdq2JaO16cF9CPZNPvujmuYBacXxg  
+INFO  2020-03-04 20:45:00,314 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/spin.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\spin.js\spin.js'
+WARN  2020-03-04 20:45:00,316 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,318 [10   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,320 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,322 [10   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,324 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/jquery.spin.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\spin.js\jquery.spin.js'
+INFO  2020-03-04 20:45:00,325 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.0164ms 200 application/javascript
+WARN  2020-03-04 20:45:00,327 [14   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,328 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=lMgLZMlGsipWDxpvEPxfKVREzRedV_ygRnTj2kvADpw  
+INFO  2020-03-04 20:45:00,330 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.2011ms 200 application/javascript
+WARN  2020-03-04 20:45:00,332 [13   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,334 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=ImopdkB8alCil1HigOwW3CDqWKsLZXyplf7TXBbjRnE  
+WARN  2020-03-04 20:45:00,338 [13   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,343 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\abp.js'
+WARN  2020-03-04 20:45:00,344 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,346 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\Waves\dist\waves.js'
+WARN  2020-03-04 20:45:00,351 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,352 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.7071ms 200 application/javascript
+INFO  2020-03-04 20:45:00,354 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.1918ms 200 application/javascript
+INFO  2020-03-04 20:45:00,356 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+INFO  2020-03-04 20:45:00,359 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=Y3zoG-hSFKmbS3BHKo_wFWRPbyzJXKoNrnF73uFdtqU  
+INFO  2020-03-04 20:45:00,360 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=RJuGDX616JN_UziXsmKnth0alpECKCx0gtxKZVrZWxY  
+INFO  2020-03-04 20:45:00,363 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.2303ms 200 application/javascript
+WARN  2020-03-04 20:45:00,365 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,368 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,372 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+WARN  2020-03-04 20:45:00,374 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,376 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.0396ms 200 application/javascript
+WARN  2020-03-04 20:45:00,378 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,380 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/admin.js?v=_sUixSUZcmP81slFpHh9ygZ5nNihdHlHLkpoSCncHCw  
+INFO  2020-03-04 20:45:00,382 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=guLvtVJMvLobKpGAlQigrGWMQ1sGQo4yTL46zjGQUUY  
+INFO  2020-03-04 20:45:00,384 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/moment/min/moment-with-locales.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\moment\min\moment-with-locales.js'
+WARN  2020-03-04 20:45:00,386 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,388 [13   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,390 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 153.0181ms 200 application/javascript
+WARN  2020-03-04 20:45:00,392 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,393 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+INFO  2020-03-04 20:45:00,395 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2020-03-04 20:45:00,397 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.1866ms 200 application/javascript
+INFO  2020-03-04 20:45:00,399 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.1599ms 200 application/javascript
+INFO  2020-03-04 20:45:00,401 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637189514853883157  
+INFO  2020-03-04 20:45:00,402 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637189514853883157  
+WARN  2020-03-04 20:45:00,404 [13   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,406 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,408 [10   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,410 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,411 [10   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,413 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/admin.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\js\admin.js'
+INFO  2020-03-04 20:45:00,415 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=Or9x-cFG7xQuzM6rsm13Mu2ucyrL4r3oR0duI0uktYk  
+INFO  2020-03-04 20:45:00,417 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.5934ms 200 application/javascript
+WARN  2020-03-04 20:45:00,419 [14   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,420 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2020-03-04 20:45:00,422 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637189514999965859  
+INFO  2020-03-04 20:45:00,423 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 57.3016ms 200 application/javascript
+WARN  2020-03-04 20:45:00,425 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,427 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.js?v=o2PUQBkwW7VjtzD5RNxKPa3oShr3fMFHds_2dwIAV5M  
+WARN  2020-03-04 20:45:00,428 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,430 [14   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,432 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,433 [18   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,435 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,438 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/main.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\js\main.js'
+INFO  2020-03-04 20:45:00,442 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2020-03-04 20:45:00,443 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.8281ms 200 application/javascript
+INFO  2020-03-04 20:45:00,446 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/animate.css/animate.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\animate.css\animate.css'
+INFO  2020-03-04 20:45:00,448 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.7255ms 200 application/javascript
+INFO  2020-03-04 20:45:00,450 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\view-resources\Views\Account\Login.js'
+INFO  2020-03-04 20:45:00,452 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 262.9658ms 200 text/css
+INFO  2020-03-04 20:45:00,454 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.9826ms 200 application/javascript
+INFO  2020-03-04 20:45:00,468 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2020-03-04 20:45:00,476 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2020-03-04 20:45:00,477 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2020-03-04 20:45:00,503 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+WARN  2020-03-04 20:45:00,506 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,507 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,512 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+INFO  2020-03-04 20:45:00,514 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.6574ms 200 image/png
+INFO  2020-03-04 20:45:00,522 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2020-03-04 20:45:00,583 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2  
+INFO  2020-03-04 20:45:00,595 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.woff2  
+INFO  2020-03-04 20:45:00,600 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2  
+WARN  2020-03-04 20:45:00,605 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,608 [13   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,612 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,614 [13   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,617 [18   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:45:00,624 [18   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:45:00,627 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\fonts\roboto\CWB0XYA8bzo0kSThX0UTuA.woff2'
+INFO  2020-03-04 20:45:00,630 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.woff2'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\fonts\material-icons\materialicons.woff2'
+INFO  2020-03-04 20:45:00,632 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 48.3888ms 200 font/woff2
+INFO  2020-03-04 20:45:00,635 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.5933ms 200 font/woff2
+INFO  2020-03-04 20:45:00,637 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\fonts\roboto\d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2'
+INFO  2020-03-04 20:45:00,640 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 54.9203ms 200 font/woff2
+INFO  2020-03-04 20:45:00,706 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 227.1197ms.
+INFO  2020-03-04 20:45:00,716 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-03-04 20:45:00,721 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 250.3116ms
+INFO  2020-03-04 20:45:00,723 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 321.4356ms 200 application/x-javascript; charset=utf-8
+INFO  2020-03-04 20:45:00,744 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 219.3478ms.
+INFO  2020-03-04 20:45:00,748 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-03-04 20:45:00,751 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 272.1517ms
+INFO  2020-03-04 20:45:00,754 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 354.2709ms 200 application/x-javascript
+DEBUG 2020-03-04 20:46:26,841 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-03-04 20:46:26,916 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-03-04 20:46:26,940 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.Web.Startup.PhoneBookWebMvcModule, MPACore.PhoneBook.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:46:26,944 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookWebCoreModule, MPACore.PhoneBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:46:26,944 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookApplicationModule, MPACore.PhoneBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:46:26,944 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookCoreModule, MPACore.PhoneBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:46:26,945 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:46:26,945 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:46:26,945 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:46:26,946 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:46:26,946 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.EntityFrameworkCore.PhoneBookEntityFrameworkModule, MPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:46:26,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:46:26,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:46:26,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:46:26,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:46:26,948 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:46:26,948 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:46:26,952 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-03-04 20:46:27,040 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-04 20:46:27,040 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-04 20:46:27,041 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-04 20:46:27,041 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-04 20:46:27,518 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MPACore.PhoneBook.EntityFrameworkCore.PhoneBookDbContext, MPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-04 20:46:28,628 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-03-04 20:46:28,740 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-03-04 20:46:28,815 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-03-04 20:46:28,854 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneBook
+DEBUG 2020-03-04 20:46:28,904 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-03-04 20:46:29,108 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-03-04 20:46:29,245 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2020-03-04 20:46:29,307 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-03-04 20:46:29,307 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-03-04 20:46:29,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Users.Dto.CreateUserDto
+DEBUG 2020-03-04 20:46:29,316 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Users.Dto.UserDto
+DEBUG 2020-03-04 20:46:29,317 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-03-04 20:46:29,317 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-03-04 20:46:29,317 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.PermissionDto
+DEBUG 2020-03-04 20:46:29,317 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-03-04 20:46:29,317 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.MultiTenancy.Dto.TenantDto
+DEBUG 2020-03-04 20:46:29,317 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-03-04 20:46:29,317 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-03-04 20:46:35,294 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/  
+WARN  2020-03-04 20:46:35,392 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:35,394 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:39,560 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action MPACore.PhoneBook.Web.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Mvc)
+WARN  2020-03-04 20:46:39,942 [11   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2020-03-04 20:46:39,947 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2020-03-04 20:46:39,961 [11   ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2020-03-04 20:46:39,990 [11   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2020-03-04 20:46:39,995 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Mvc) in 429.326ms
+INFO  2020-03-04 20:46:40,080 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4798.794ms 302 
+INFO  2020-03-04 20:46:40,083 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/Account/Login?ReturnUrl=%2F  
+WARN  2020-03-04 20:46:40,088 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:40,090 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:40,134 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action MPACore.PhoneBook.Web.Controllers.AccountController.Login (MPACore.PhoneBook.Web.Mvc)
+INFO  2020-03-04 20:46:43,668 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.AccountController.Login (MPACore.PhoneBook.Web.Mvc) with arguments (, /, ) - Validation state: Valid
+INFO  2020-03-04 20:46:43,680 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MPACore.PhoneBook.Web.Controllers.AccountController.Login (MPACore.PhoneBook.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 8.7566ms.
+INFO  2020-03-04 20:46:43,852 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-03-04 20:46:44,447 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 651.8412ms.
+INFO  2020-03-04 20:46:44,455 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.AccountController.Login (MPACore.PhoneBook.Web.Mvc) in 4319.1048ms
+INFO  2020-03-04 20:46:44,467 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/fonts/roboto/roboto.css?v=DWPiEyLnt8XZ68WQeudmZPGSejowhmQNUUhaX8dYF1Q  
+WARN  2020-03-04 20:46:44,470 [13   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,473 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/fonts/material-icons/materialicons.css?v=2SsVsQpWRHM3EJ4D4MT4RRpiEXbEuK0vEjPxVr5P7Ek  
+WARN  2020-03-04 20:46:44,477 [13   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,478 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,480 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css?v=fmMNkMcjSw3xcp9iuPnku_ryk9kaWgrEbfJfKmdZ45o  
+WARN  2020-03-04 20:46:44,483 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,485 [14   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,492 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/toastr/toastr.css?v=W8a9WvLyUO7CXtOC4f9LoUMwkywM7JSq-Xm5kNsYW08  
+WARN  2020-03-04 20:46:44,494 [14   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,495 [10   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,498 [10   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,499 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css?v=l7wu43l7XpKWzFn29hiH8AFe4I_CNzbCPmaAQivPYMg  
+WARN  2020-03-04 20:46:44,501 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,503 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,514 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4430.0813ms 200 text/html; charset=utf-8
+INFO  2020-03-04 20:46:44,535 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/font-awesome/css/font-awesome.css?v=NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w  
+WARN  2020-03-04 20:46:44,538 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,540 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,569 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/css/font-awesome.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\font-awesome\css\font-awesome.css'
+INFO  2020-03-04 20:46:44,574 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\fonts\material-icons\materialicons.css'
+INFO  2020-03-04 20:46:44,577 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 55.2777ms 200 text/css
+INFO  2020-03-04 20:46:44,583 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\toastr\toastr.css'
+INFO  2020-03-04 20:46:44,585 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/roboto.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\fonts\roboto\roboto.css'
+INFO  2020-03-04 20:46:44,587 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 115.8667ms 200 text/css
+INFO  2020-03-04 20:46:44,589 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/css/materialize.css?v=OdWlipUYj8b9Oa4RyT45njteIcxH-4pGocqe0r0V8js  
+INFO  2020-03-04 20:46:44,591 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/Waves/dist/waves.css?v=0zP86LzXedNkkBjePtKrMTAPuIy6EzHfGlyYvsmGLBw  
+INFO  2020-03-04 20:46:44,593 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 98.4609ms 200 text/css
+WARN  2020-03-04 20:46:44,595 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,596 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Account/_Layout.css?v=vIEtxnpR3ZrYbYcueRr_mJ9XuJJzDprh4sMCwvRBcqk  
+WARN  2020-03-04 20:46:44,599 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,601 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,604 [14   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,606 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,608 [14   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,610 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 121.3781ms 200 text/css
+INFO  2020-03-04 20:46:44,612 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.css'
+INFO  2020-03-04 20:46:44,616 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/animate.css/animate.css?v=00w68NO3TLuHjKRHJmjrrgJBDtG_6OhbJEu1gtHcsuo  
+INFO  2020-03-04 20:46:44,617 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/materialize.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\css\materialize.css'
+INFO  2020-03-04 20:46:44,619 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\Waves\dist\waves.css'
+INFO  2020-03-04 20:46:44,621 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.6775ms 200 text/css
+INFO  2020-03-04 20:46:44,623 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/_Layout.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\view-resources\Views\Account\_Layout.css'
+INFO  2020-03-04 20:46:44,625 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.4612ms 200 text/css
+INFO  2020-03-04 20:46:44,627 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Account/Login.css?v=j_16MTiQNlUrKdjTrCjLCSGkIIjHvt8tFUyucW02Vqw  
+INFO  2020-03-04 20:46:44,629 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/json2/json2.js?v=EZJ68U7eUi8uSP0MRRUalYten2eOlhREE9kJOIbIeYg  
+INFO  2020-03-04 20:46:44,631 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+INFO  2020-03-04 20:46:44,632 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30.5777ms 200 text/css
+WARN  2020-03-04 20:46:44,634 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,636 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,638 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,640 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,641 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 157.6495ms 200 text/css
+INFO  2020-03-04 20:46:44,643 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.js?v=DZAnKJ_6XZ9si04Hgrsxu_8s717jcIzLy3oi35EouyE  
+INFO  2020-03-04 20:46:44,644 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.js?v=Cr6N6zNN4bp0OwTQOZ6Z66M2r-2dpy_EwKMCyZ-SOMg  
+WARN  2020-03-04 20:46:44,646 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,649 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,651 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,654 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,655 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/json2/json2.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\json2\json2.js'
+INFO  2020-03-04 20:46:44,659 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\view-resources\Views\Account\Login.css'
+INFO  2020-03-04 20:46:44,661 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 29.5994ms 200 application/javascript
+INFO  2020-03-04 20:46:44,663 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.6444ms 200 text/css
+INFO  2020-03-04 20:46:44,665 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-validation/dist/jquery.validate.js?v=KuzD50lDGNI5jq_ipt4hwDpSJk3fhseTR1jdvaBoZLs  
+INFO  2020-03-04 20:46:44,669 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/moment/min/moment-with-locales.js?v=7CN4bWPV0U57HDA4YjdCBKCAynhqdWErjNn-5rrsW_I  
+WARN  2020-03-04 20:46:44,671 [10   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,673 [13   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,675 [10   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,677 [14   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,681 [13   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,683 [14   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,686 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 116.286ms 200 text/css
+INFO  2020-03-04 20:46:44,690 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/css/style.css?v=151KUrNx-cFGpjXC7QZ8WbWSo-mQTLO0htvGyBUR_i8  
+INFO  2020-03-04 20:46:44,692 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+WARN  2020-03-04 20:46:44,695 [20   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,697 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.4366ms 200 application/javascript
+WARN  2020-03-04 20:46:44,699 [20   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,701 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/blockUI/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+WARN  2020-03-04 20:46:44,706 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,709 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/animate.css/animate.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\animate.css\animate.css'
+INFO  2020-03-04 20:46:44,711 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+WARN  2020-03-04 20:46:44,715 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,717 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 99.2596ms 200 text/css
+INFO  2020-03-04 20:46:44,722 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 70.7784ms 200 application/javascript
+INFO  2020-03-04 20:46:44,724 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/style.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\css\style.css'
+INFO  2020-03-04 20:46:44,726 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\jquery\dist\jquery.js'
+INFO  2020-03-04 20:46:44,730 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/blockUI/jquery.blockUI.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\blockUI\jquery.blockUI.js'
+INFO  2020-03-04 20:46:44,732 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 94.4535ms 200 application/javascript
+INFO  2020-03-04 20:46:44,734 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 45.1174ms 200 text/css
+INFO  2020-03-04 20:46:44,737 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/spin.js/jquery.spin.js?v=EG38bUU5b2M64hy9cNAzu_cQBEsiBYsDifOcoHqNd2k  
+INFO  2020-03-04 20:46:44,739 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/toastr/toastr.js?v=C7DJ6LzTt1Hvj9fd-yRnySs3I4T2B8XmQ3TqXQjc00g  
+INFO  2020-03-04 20:46:44,740 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/sweetalert/dist/sweetalert.min.js?v=aPktydUv1rN3mouQeXoKi3ioFTIQlULuqYeoTAA2ihY  
+WARN  2020-03-04 20:46:44,743 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,746 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.769ms 200 application/javascript
+WARN  2020-03-04 20:46:44,748 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,751 [10   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,753 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/spin.js/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+WARN  2020-03-04 20:46:44,756 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,759 [10   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,762 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,763 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/jquery.spin.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\spin.js\jquery.spin.js'
+WARN  2020-03-04 20:46:44,765 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,768 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,771 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\toastr\toastr.js'
+INFO  2020-03-04 20:46:44,773 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.2295ms 200 application/javascript
+INFO  2020-03-04 20:46:44,775 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/spin.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\spin.js\spin.js'
+INFO  2020-03-04 20:46:44,777 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50.6693ms 200 application/javascript
+INFO  2020-03-04 20:46:44,779 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=lMgLZMlGsipWDxpvEPxfKVREzRedV_ygRnTj2kvADpw  
+INFO  2020-03-04 20:46:44,782 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=ImopdkB8alCil1HigOwW3CDqWKsLZXyplf7TXBbjRnE  
+INFO  2020-03-04 20:46:44,784 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.9149ms 200 application/javascript
+INFO  2020-03-04 20:46:44,785 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/sweetalert/dist/sweetalert.min.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\sweetalert\dist\sweetalert.min.js'
+WARN  2020-03-04 20:46:44,787 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,789 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=Y3zoG-hSFKmbS3BHKo_wFWRPbyzJXKoNrnF73uFdtqU  
+WARN  2020-03-04 20:46:44,792 [10   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,793 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,796 [10   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,798 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,799 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 62.9662ms 200 application/javascript
+INFO  2020-03-04 20:46:44,803 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/Waves/dist/waves.js?v=Lar7zQhqgdoUsaqhuwkgnWgsC-eRWIxHhJPV-QtrDog  
+WARN  2020-03-04 20:46:44,805 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,808 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=RJuGDX616JN_UziXsmKnth0alpECKCx0gtxKZVrZWxY  
+INFO  2020-03-04 20:46:44,810 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+WARN  2020-03-04 20:46:44,814 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,816 [13   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,818 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.5272ms 200 application/javascript
+INFO  2020-03-04 20:46:44,821 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+INFO  2020-03-04 20:46:44,822 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=guLvtVJMvLobKpGAlQigrGWMQ1sGQo4yTL46zjGQUUY  
+WARN  2020-03-04 20:46:44,824 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,826 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+INFO  2020-03-04 20:46:44,828 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.1379ms 200 application/javascript
+WARN  2020-03-04 20:46:44,831 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,832 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/js/main.js?v=Or9x-cFG7xQuzM6rsm13Mu2ucyrL4r3oR0duI0uktYk  
+WARN  2020-03-04 20:46:44,834 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,838 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2020-03-04 20:46:44,839 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 48.7932ms 200 application/javascript
+WARN  2020-03-04 20:46:44,842 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,843 [13   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,845 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,847 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.5232ms 200 application/javascript
+INFO  2020-03-04 20:46:44,848 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2020-03-04 20:46:44,851 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=637189515892467403  
+INFO  2020-03-04 20:46:44,854 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30.798ms 200 application/javascript
+INFO  2020-03-04 20:46:44,856 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/main.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\js\main.js'
+WARN  2020-03-04 20:46:44,858 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,859 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.4913ms 200 application/javascript
+INFO  2020-03-04 20:46:44,863 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=637189515892467403  
+WARN  2020-03-04 20:46:44,864 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,865 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+WARN  2020-03-04 20:46:44,868 [10   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,869 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\Waves\dist\waves.js'
+WARN  2020-03-04 20:46:44,872 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,874 [10   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,876 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,878 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 123.4486ms 200 application/javascript
+INFO  2020-03-04 20:46:44,880 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/js/admin.js?v=_sUixSUZcmP81slFpHh9ygZ5nNihdHlHLkpoSCncHCw  
+INFO  2020-03-04 20:46:44,884 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Account/Login.js?v=o2PUQBkwW7VjtzD5RNxKPa3oShr3fMFHds_2dwIAV5M  
+WARN  2020-03-04 20:46:44,887 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,892 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,893 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,896 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,897 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+INFO  2020-03-04 20:46:44,899 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/moment/min/moment-with-locales.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\moment\min\moment-with-locales.js'
+INFO  2020-03-04 20:46:44,904 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.7352ms 200 image/png
+INFO  2020-03-04 20:46:44,906 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/admin.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\js\admin.js'
+INFO  2020-03-04 20:46:44,908 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\view-resources\Views\Account\Login.js'
+INFO  2020-03-04 20:46:44,910 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 65.382ms 200 application/javascript
+INFO  2020-03-04 20:46:44,913 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 236.0555ms 200 application/javascript
+INFO  2020-03-04 20:46:44,916 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.0009ms 200 application/javascript
+INFO  2020-03-04 20:46:44,919 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/abp-web-resources/Abp/Framework/scripts/abp.js?v=FGfi3RfHf06ftjVdq2JaO16cF9CPZNPvujmuYBacXxg  
+INFO  2020-03-04 20:46:44,921 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2  
+INFO  2020-03-04 20:46:44,924 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2  
+WARN  2020-03-04 20:46:44,926 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,929 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/fonts/material-icons/materialicons.woff2  
+WARN  2020-03-04 20:46:44,932 [12   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,937 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,939 [13   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,945 [13   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:44,947 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,949 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\fonts\roboto\d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2'
+WARN  2020-03-04 20:46:44,953 [20   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,961 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.6941ms 200 font/woff2
+INFO  2020-03-04 20:46:44,963 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\fonts\roboto\CWB0XYA8bzo0kSThX0UTuA.woff2'
+WARN  2020-03-04 20:46:44,967 [20   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:44,968 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.woff2'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\fonts\material-icons\materialicons.woff2'
+INFO  2020-03-04 20:46:44,973 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.5602ms 200 font/woff2
+INFO  2020-03-04 20:46:44,977 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 53.451ms 200 font/woff2
+INFO  2020-03-04 20:46:44,979 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\abp.js'
+INFO  2020-03-04 20:46:44,981 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 65.1297ms 200 application/javascript
+INFO  2020-03-04 20:46:44,985 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2020-03-04 20:46:44,995 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2020-03-04 20:46:45,003 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2020-03-04 20:46:45,054 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2020-03-04 20:46:45,203 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 206.3502ms.
+INFO  2020-03-04 20:46:45,212 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-03-04 20:46:45,217 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 230.1509ms
+INFO  2020-03-04 20:46:45,219 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 362.5507ms 200 application/x-javascript; charset=utf-8
+INFO  2020-03-04 20:46:45,240 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 183.8202ms.
+INFO  2020-03-04 20:46:45,242 [6    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-03-04 20:46:45,244 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 239.8842ms
+INFO  2020-03-04 20:46:45,246 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 397.0384ms 200 application/x-javascript
+INFO  2020-03-04 20:46:45,275 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+WARN  2020-03-04 20:46:45,277 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:46:45,279 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:46:45,284 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\favicon.ico'
+INFO  2020-03-04 20:46:45,288 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.0556ms 200 image/x-icon
+INFO  2020-03-04 20:49:10,405 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/Account/Login application/x-www-form-urlencoded 272
+WARN  2020-03-04 20:49:10,407 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:10,409 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:10,428 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action MPACore.PhoneBook.Web.Controllers.AccountController.Login (MPACore.PhoneBook.Web.Mvc)
+INFO  2020-03-04 20:49:10,534 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.AccountController.Login (MPACore.PhoneBook.Web.Mvc) with arguments (MPACore.PhoneBook.Web.Models.Account.LoginViewModel, /, ) - Validation state: Valid
+WARN  2020-03-04 20:49:10,879 [6    ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 2.
+WARN  2020-03-04 20:49:11,698 [6    ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MPACore.PhoneBook.Web.Controllers.AccountController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\Controllers\AccountController.cs:line 127
+   at MPACore.PhoneBook.Web.Controllers.AccountController.Login(LoginViewModel loginModel, String returnUrl, String returnUrlHash) in E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\Controllers\AccountController.cs:line 104
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinallyAndGetResult[T](Task`1 actualReturnValue, Func`1 postAction, Action`1 finalAction)
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2020-03-04 20:49:11,726 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-03-04 20:49:11,755 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.AccountController.Login (MPACore.PhoneBook.Web.Mvc) in 1324.4088ms
+INFO  2020-03-04 20:49:11,758 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1351.7416ms 500 application/json; charset=utf-8
+INFO  2020-03-04 20:49:17,595 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/Account/Login application/x-www-form-urlencoded 272
+WARN  2020-03-04 20:49:17,596 [24   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:17,598 [24   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:17,606 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action MPACore.PhoneBook.Web.Controllers.AccountController.Login (MPACore.PhoneBook.Web.Mvc)
+INFO  2020-03-04 20:49:17,615 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.AccountController.Login (MPACore.PhoneBook.Web.Mvc) with arguments (MPACore.PhoneBook.Web.Models.Account.LoginViewModel, /, ) - Validation state: Valid
+INFO  2020-03-04 20:49:18,056 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2020-03-04 20:49:18,060 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MPACore.PhoneBook.Web.Controllers.AccountController.Login (MPACore.PhoneBook.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult in 443.6463ms.
+INFO  2020-03-04 20:49:18,084 [26   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-03-04 20:49:18,086 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.AccountController.Login (MPACore.PhoneBook.Web.Mvc) in 477.7573ms
+INFO  2020-03-04 20:49:18,089 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 493.1384ms 200 application/json; charset=utf-8
+INFO  2020-03-04 20:49:18,102 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/  
+WARN  2020-03-04 20:49:18,107 [25   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:18,109 [25   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:18,173 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action MPACore.PhoneBook.Web.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Mvc)
+INFO  2020-03-04 20:49:18,215 [25   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-03-04 20:49:18,220 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Mvc) - Validation state: Valid
+INFO  2020-03-04 20:49:18,223 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MPACore.PhoneBook.Web.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.8308ms.
+INFO  2020-03-04 20:49:18,236 [24   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-03-04 20:49:18,962 [25   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 728.4866ms.
+INFO  2020-03-04 20:49:18,970 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Mvc) in 794.6958ms
+INFO  2020-03-04 20:49:18,974 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 870.4473ms 200 text/html; charset=utf-8
+INFO  2020-03-04 20:49:18,978 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap-select/dist/css/bootstrap-select.css?v=a7N4Jki3LzSbThclvqbu4nF45twcjuc772JGFhY9qwk  
+INFO  2020-03-04 20:49:18,979 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Shared/_Layout.css?v=uq7unI_U0xZr0Pbyzeu6KfbJKHVFuv0wNJ4CrrhQknw  
+INFO  2020-03-04 20:49:18,994 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/morris.js/morris.css?v=szHusaozbQctTn4FX-3l5E0A5zoxz7-ne4fr8NgWJlw  
+WARN  2020-03-04 20:49:19,000 [27   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:19,003 [26   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:19,006 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:19,008 [26   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:19,009 [27   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:19,011 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,013 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/css/themes/all-themes.css?v=XaAlkmhL9gA6mBxpcxGYAWxggxkIpRmT9qGbKejs6eA  
+INFO  2020-03-04 20:49:19,015 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/images/user.png  
+INFO  2020-03-04 20:49:19,017 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap-select/dist/js/bootstrap-select.js?v=_KDPX2Vvqq8sySMxlLNJxt9j6Cmb8i_xp602ozhYxzI  
+WARN  2020-03-04 20:49:19,033 [28   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,034 [32   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-select/dist/css/bootstrap-select.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\bootstrap-select\dist\css\bootstrap-select.css'
+WARN  2020-03-04 20:49:19,038 [28   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:19,041 [30   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,043 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 64.3062ms 200 text/css
+WARN  2020-03-04 20:49:19,046 [30   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,048 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/themes/all-themes.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\css\themes\all-themes.css'
+INFO  2020-03-04 20:49:19,056 [33   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.css'
+INFO  2020-03-04 20:49:19,065 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=637189515892467403  
+INFO  2020-03-04 20:49:19,067 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 72.8948ms 200 text/css
+INFO  2020-03-04 20:49:19,069 [31   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/user.png'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\images\user.png'
+WARN  2020-03-04 20:49:19,071 [24   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,074 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-slimscroll/jquery.slimscroll.js?v=4K6ZHzwMYR5_eU2SeDIaByus_qki9IFY8hmxl5U6D1Y  
+INFO  2020-03-04 20:49:19,076 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 63.6351ms 200 image/png
+WARN  2020-03-04 20:49:19,079 [24   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,080 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=637189515892467403  
+WARN  2020-03-04 20:49:19,082 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:19,084 [31   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,087 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 82.9707ms 200 text/css
+WARN  2020-03-04 20:49:19,090 [31   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:19,092 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,094 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/push.js/push.js?v=HDxbpm8oBKwe1bmX9Z1SahYYA7zEbc1dk7LfopvOvoE  
+WARN  2020-03-04 20:49:19,096 [34   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:19,098 [33   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:19,100 [34   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:19,104 [33   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,107 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-slimscroll/jquery.slimscroll.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\jquery-slimscroll\jquery.slimscroll.js'
+INFO  2020-03-04 20:49:19,109 [40   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/morris.js/morris.css'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\morris.js\morris.css'
+INFO  2020-03-04 20:49:19,112 [32   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-select/dist/js/bootstrap-select.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\bootstrap-select\dist\js\bootstrap-select.js'
+INFO  2020-03-04 20:49:19,116 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.4358ms 200 application/javascript
+INFO  2020-03-04 20:49:19,117 [29   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/push.js/push.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\push.js\push.js'
+INFO  2020-03-04 20:49:19,119 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 108.5934ms 200 application/javascript
+INFO  2020-03-04 20:49:19,123 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/signalr-client/signalr.min.js?v=DeOex_tR7FzkV208FN2wnFJvIUIKXWsVjbW0171naJo  
+INFO  2020-03-04 20:49:19,125 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 29.7245ms 200 application/javascript
+INFO  2020-03-04 20:49:19,128 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js?v=8bQpuR0dFdbi0KIM9VVSonDAxoXNRsdDAvuSZSI8Oyw  
+INFO  2020-03-04 20:49:19,130 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-countTo/jquery.countTo.js?v=AGGYFLOyVnIKn_2UCDl9D_5VWf8wHWCOtm9YU0P9g6I  
+WARN  2020-03-04 20:49:19,132 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:19,135 [29   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:19,139 [32   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:19,142 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:19,144 [29   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,147 [31   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+WARN  2020-03-04 20:49:19,150 [32   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,154 [40   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 133.9536ms 200 text/css
+INFO  2020-03-04 20:49:19,161 [40   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Shared/_Layout.js?v=jOYc7_5N1zFKt3qTihQ-9Kc0wjSMXkAeHUXNyvn8sYo  
+INFO  2020-03-04 20:49:19,165 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-countTo/jquery.countTo.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\jquery-countTo\jquery.countTo.js'
+INFO  2020-03-04 20:49:19,167 [31   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2020-03-04 20:49:19,172 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.3692ms 200 application/javascript
+INFO  2020-03-04 20:49:19,176 [32   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.signalr-client.js'
+INFO  2020-03-04 20:49:19,178 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2020-03-04 20:49:19,180 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/raphael/raphael.js?v=MPXjTSEImVJI1834JAHubdK7Lts1VTUPJmCQ9zKAjyA  
+INFO  2020-03-04 20:49:19,182 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 56.3969ms 200 application/javascript
+WARN  2020-03-04 20:49:19,184 [25   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,186 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/morris.js/morris.js?v=cQB75DEaDbn4oSiaWgdoh3TuZCHSO-kYdD_Ehka48Ro  
+WARN  2020-03-04 20:49:19,189 [25   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:19,191 [32   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,193 [35   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/signalr-client/signalr.min.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\signalr-client\signalr.min.js'
+WARN  2020-03-04 20:49:19,195 [32   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,197 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 77.0755ms 200 application/javascript
+WARN  2020-03-04 20:49:19,200 [40   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,204 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/chart.js/dist/Chart.bundle.js?v=TQAtDUIU_0XtXZLNjMBV8noK8jNSngwHlgtC_PvsRAk  
+INFO  2020-03-04 20:49:19,206 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2020-03-04 20:49:19,209 [27   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/morris.js/morris.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\morris.js\morris.js'
+WARN  2020-03-04 20:49:19,211 [35   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,213 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 2.5172ms.
+INFO  2020-03-04 20:49:19,215 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.0021ms 200 application/javascript
+INFO  2020-03-04 20:49:19,216 [28   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/raphael/raphael.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\raphael\raphael.js'
+INFO  2020-03-04 20:49:19,218 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/Flot/jquery.flot.js?v=t7kx8nPDixJ3ucbB9OBcTsCYhaSHvdrzJ54tfkmjjhI  
+INFO  2020-03-04 20:49:19,221 [24   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+WARN  2020-03-04 20:49:19,225 [27   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,226 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.036ms 200 application/javascript
+INFO  2020-03-04 20:49:19,228 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 44.9368ms
+WARN  2020-03-04 20:49:19,230 [27   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,232 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/Flot/jquery.flot.resize.js?v=i59RRvMkqw-28mDu6YRzKo77gmM7k9aPZMtcw45wgu4  
+INFO  2020-03-04 20:49:19,234 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 175.3013ms 200 application/x-javascript
+WARN  2020-03-04 20:49:19,240 [35   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,242 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/images/user-img-background.jpg  
+WARN  2020-03-04 20:49:19,244 [28   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:19,247 [40   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:19,253 [28   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,257 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\Flot\jquery.flot.js'
+WARN  2020-03-04 20:49:19,276 [24   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,280 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.4495ms 200 application/javascript
+WARN  2020-03-04 20:49:19,282 [24   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,285 [28   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.js'
+INFO  2020-03-04 20:49:19,288 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0  
+INFO  2020-03-04 20:49:19,290 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 131.2517ms 200 application/javascript
+INFO  2020-03-04 20:49:19,292 [29   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.resize.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\Flot\jquery.flot.resize.js'
+INFO  2020-03-04 20:49:19,295 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/Flot/jquery.flot.pie.js?v=RsEWYd9gdLG1bCIcU8j59Rkvf_1O7HtzoD1TRUs22cU  
+WARN  2020-03-04 20:49:19,297 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,300 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 66.8451ms 200 application/javascript
+WARN  2020-03-04 20:49:19,302 [28   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:19,304 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:19,306 [28   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,308 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/Flot/jquery.flot.categories.js?v=boFmSyjqeVxzSQb0qhVhRkCnWsf705mn-5CEBAaYNRo  
+INFO  2020-03-04 20:49:19,311 [32   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/user-img-background.jpg'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\images\user-img-background.jpg'
+WARN  2020-03-04 20:49:19,313 [29   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,317 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 76.0233ms 200 image/jpeg
+WARN  2020-03-04 20:49:19,320 [29   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,324 [24   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff2'
+INFO  2020-03-04 20:49:19,325 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-sparkline/dist/jquery.sparkline.js?v=k0LZZpXY4vJp6vbA5CL5bb20Ou0IO3Shz-J6U6Vq56c  
+INFO  2020-03-04 20:49:19,329 [33   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.pie.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\Flot\jquery.flot.pie.js'
+INFO  2020-03-04 20:49:19,330 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.2805ms 200 font/woff2
+INFO  2020-03-04 20:49:19,332 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.categories.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\Flot\jquery.flot.categories.js'
+WARN  2020-03-04 20:49:19,335 [32   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,337 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.8139ms 200 application/javascript
+WARN  2020-03-04 20:49:19,340 [32   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,341 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.0603ms 200 application/javascript
+INFO  2020-03-04 20:49:19,344 [42   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/chart.js/dist/Chart.bundle.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\chart.js\dist\Chart.bundle.js'
+INFO  2020-03-04 20:49:19,346 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Home/Index.js?v=tRGDdqeVjO63iaO1qvGPpKF2NuT2riEOyYovlY_otk0  
+INFO  2020-03-04 20:49:19,349 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 146.3772ms 200 application/javascript
+WARN  2020-03-04 20:49:19,351 [33   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,353 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/lib/Flot/jquery.flot.time.js?v=pYLIMq3HE4prBar2HxbrrCdHAfG-Sv6nfnOaHDS5xBo  
+WARN  2020-03-04 20:49:19,358 [33   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:19,360 [42   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,364 [39   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-sparkline/dist/jquery.sparkline.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\jquery-sparkline\dist\jquery.sparkline.js'
+WARN  2020-03-04 20:49:19,367 [42   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,371 [30   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Home/Index.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\view-resources\Views\Home\Index.js'
+INFO  2020-03-04 20:49:19,374 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 48.272ms 200 application/javascript
+INFO  2020-03-04 20:49:19,377 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.time.js'. Physical path: 'E:\Code\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Mvc\wwwroot\lib\Flot\jquery.flot.time.js'
+INFO  2020-03-04 20:49:19,379 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30.1218ms 200 application/javascript
+INFO  2020-03-04 20:49:19,382 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 28.5937ms 200 application/javascript
+INFO  2020-03-04 20:49:19,415 [31   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 244.7139ms.
+INFO  2020-03-04 20:49:19,418 [31   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-03-04 20:49:19,423 [31   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 270.3995ms
+INFO  2020-03-04 20:49:19,428 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 347.0159ms 200 application/x-javascript; charset=utf-8
+INFO  2020-03-04 20:49:19,460 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/signalr/negotiate text/plain;charset=UTF-8 0
+WARN  2020-03-04 20:49:19,463 [39   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:19,465 [39   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,533 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 74.8242ms 200 application/json
+INFO  2020-03-04 20:49:19,540 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/signalr?id=YpETMjW1oxpLkSPOcR81eQ  
+WARN  2020-03-04 20:49:19,543 [32   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-04 20:49:19,545 [32   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-04 20:49:19,832 [32   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2020-03-04 20:49:19,874 [32   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"YpETMjW1oxpLkSPOcR81eQ","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-03-04T20:49:19.8639801+08:00","Properties":{}}
+DEBUG 2020-03-04 20:49:19,933 [32   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: YpETMjW1oxpLkSPOcR81eQ
