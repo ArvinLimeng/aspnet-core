@@ -18,7 +18,7 @@ namespace MPACore.PhoneBook.PhoneBooks.Dtos
         /// <summary>
         /// 邮箱地址
         /// </summary>
-        public string EmaillAddress { get; set; }
+        public string EmailAddress { get; set; }
 
         /// <summary>
         /// 地址信息

@@ -23,10 +23,6 @@ namespace MPACore.PhoneBook.PhoneBooks
         {
             _personRepository = personRepository;
         }
-        public Task CreateOrUpdatePersonAsync()
-        {
-            throw new NotImplementedException();
-        }
 
         public async Task CreateOrUpdatePersonAsync(CreateOrUpdatePersonInput input)
         {
@@ -38,7 +34,6 @@ namespace MPACore.PhoneBook.PhoneBooks
             {
                 await CreatePersonAsync(input.PersonEditDto);
             }
-            throw new NotImplementedException();
         }
 
         public async Task DeletePersonAsync(EntityDto input)
@@ -65,9 +60,10 @@ namespace MPACore.PhoneBook.PhoneBooks
             throw new NotImplementedException();
         }
 
-        public Task<PersonListDto> GetPersonByIdAsync(NullableIdDto input)
+        public async Task<PersonListDto> GetPersonByIdAsync(NullableIdDto input)
         {
-            throw new NotImplementedException();
+            var person = await _personRepository.GetAsync(input.Id.Value);
+            return person.MapTo<PersonListDto>();
         }
 
         protected async Task UpdatePersonAsync(PersonEditDto input)
@@ -77,7 +73,7 @@ namespace MPACore.PhoneBook.PhoneBooks
         }
         protected async Task CreatePersonAsync(PersonEditDto input)
         {
-             _personRepository.Insert(input.MapTo<Person>());
+             await _personRepository.InsertAsync(input.MapTo<Person>());
         }
     }
 }
